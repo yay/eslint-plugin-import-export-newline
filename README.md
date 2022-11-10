@@ -33,7 +33,7 @@ Add `eslint-plugin-import-export-newline` to the plugins section of your `.eslin
 ```json
 {
     "plugins": [
-        "modules-newline"
+        "import-export-newline"
     ]
 }
 ```
@@ -44,8 +44,8 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
     "rules": {
-        "modules-newline/import-declaration-newline": "warn",
-        "modules-newline/export-declaration-newline": "warn"
+        "import-export-newline/import-declaration-newline": "warn",
+        "import-export-newline/export-declaration-newline": "warn"
     }
 }
 ```
