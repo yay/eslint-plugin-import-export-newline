@@ -1,4 +1,4 @@
-# eslint-plugin-modules-newline
+# eslint-plugin-import-export-newline
 
 Eslint plugin to enforce placing import and export variables on separate lines
 
@@ -9,26 +9,26 @@ You'll first need to install [ESLint](http://eslint.org):
 ```
 $ npm i eslint --save-dev
 ```
-or 
+or
 ```
 $ yarn add eslint --dev
 ```
 
-Next, install `eslint-plugin-modules-newline`:
+Next, install `eslint-plugin-import-export-newline`:
 
 ```
-$ npm install eslint-plugin-modules-newline --save-dev
+$ npm install eslint-plugin-import-export-newline --save-dev
 ```
 or
 ```
-$ yarn add eslint-plugin-modules-newline --dev
+$ yarn add eslint-plugin-import-export-newline --dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-modules-newline` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-import-export-newline` globally.
 
 ## Usage
 
-Add `eslint-plugin-modules-newline` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `eslint-plugin-import-export-newline` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
 
 ```json
 {
